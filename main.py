@@ -1,0 +1,5 @@
+print('1. Jumlahkan Vektor')
+print('2. Pengurangan Vektor')
+print('3. Dot Product')
+print('4. Panjang Vektor')
+print('5. Vektor Unit')
