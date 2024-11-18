@@ -1,1 +1,0 @@
-#pengurangan vector
