@@ -29,12 +29,12 @@ while True:
         print(f"Hasil perkalian Vektor A dan B adalah", dot_product(a, b))
 
     elif pilihan == "4":
-        a = list(map(int, input("Masukkan Vektor A : ").split(",")))
-        print(f"Hasil panjang Vektor A adalah", panjang_vektor(a))
+        a = list(map(int, input("Masukkan Vektor : ").split(",")))
+        print(f"Hasil panjang Vektor adalah", round(panjang_vektor(a),2))
 
     elif pilihan == "5":
-        a = list(map(int, input("Masukkan Vektor A : ").split(",")))
-        print(f"Hasil unit Vector A adalah", unit_vector(a))
+        a = list(map(int, input("Masukkan Vektor : ").split(",")))
+        print(f"Hasil unit Vector adalah", unit_vector(a))
         
     else:
         print("Pilihan tidak valid.")
